@@ -39,6 +39,9 @@ import tripguide from "./tripguide.png";
 import metaverse from "./metaverse.png";
 import portfolio from "./Portfolio-image.png";
 import socialmed from "./SocialMediaImg.png";
+import sumz from "./sumz.png";
+import threads from "./threads_img.png";
+import genius from "./genius.png";
 
 export {
   logo,
@@ -76,6 +79,9 @@ export {
   metaverse,
   socialmed,
   portfolio,
+  threads,
+  genius,
+  sumz,
   c,
   python
 };

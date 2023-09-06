@@ -29,6 +29,9 @@ import {
     metaverse,
     socialmed,
     portfolio,
+    genius,
+    threads,
+    sumz,
     python,
     c,
   } from "../assets";
@@ -193,25 +196,46 @@ import {
   
   const projects = [
     {
-      name: "Metaversus",
+      name: "Genius",
       description:
-        "A fully responsive Front-end web application that makes use of framer motion to include spectacular animations. It uses Tailwind CSS for stylizing the app beautifully and is based on NextJs.",
+        "Converse, code, create images, videos, and music with Genius, the ultimate AI-SaaS platform. Enjoy Stripe integration for easy payments and subscription management. Elevate your genius today.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "openAi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "replicateAi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: genius,
+      source_code_link: "https://github.com/immubashir/genius-app",
+    },
+    {
+      name: "Threads",
+      description:
+        "ThreadHub, built with Next.js 13 and Tailwind CSS, enables users to create, manage, and engage in communities effortlessly. Post your thoughts and have a discussion with the rest of your team intuitively.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "framerMotion",
+          name: "clerk",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: metaverse,
-      source_code_link: "https://github.com/",
+      image: threads,
+      source_code_link: "https://github.com/immubashir/threads_app",
     },
     {
       name: "SocialSphere",
@@ -232,7 +256,49 @@ import {
         },
       ],
       image: socialmed,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/immubashir/Social-media",
+    },
+    {
+      name: "Metaversus",
+      description:
+        "A fully responsive Front-end web application that makes use of framer motion to include spectacular animations. It uses Tailwind CSS for stylizing the app beautifully and is based on NextJs.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "framerMotion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metaverse,
+      source_code_link: "https://github.com/immubashir/Metaversus",
+    },
+    {
+      name: "Article Summarizer",
+      description:
+        "Experience the future of information consumption with our cutting-edge AI-powered Article Summarizer app. Built using the lightning-fast Vite framework, our app ensures a seamless user experience.",
+      tags: [
+        {
+          name: "vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapid-api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sumz,
+      source_code_link: "https://github.com/immubashir/ai-summarizer",
     },
     {
       name: "Porfolio",
@@ -253,7 +319,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/immubashir/Portfolio",
     },
   ];
   
